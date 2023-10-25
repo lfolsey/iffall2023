@@ -1,0 +1,142 @@
+html{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:aliceblue;
+
+    line-height: 2;
+}
+header{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/thanksgiving-sweet-potato-pie-638-preview-650c4f6879087.jpg");
+    background-position: right;
+    text-align: center;
+    
+}
+
+
+.intro{
+    background-color: darkorange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+h1{
+    text-align: center;
+    color:aliceblue;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 13pt;
+    font-style: italic;
+    color:darkslategrey;
+}
+
+section{
+    margin: 2.8em 0;
+   
+  }
+h3{
+    color: black;
+}
+
+.intro{
+    text-align: center;
+    column-count: 5;
+    line-height: 1;
+   
+
+}
+
+
+.ingredients{
+    line-height: 1.2;
+    text-align: center;
+}
+
+.ingredients h3{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+}
+p{
+    text-align: left;
+    line-height: 1.2;
+
+    h4{
+        font-weight: 400;
+        text-align: left;
+        
+    }
+}
+
+
+.ingredients h4{
+    font-size: 22px;
+}
+
+
+
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.topsection{
+    width:960px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+
+.instructions h2{
+
+    font-size: 40px;
+    color: black;
+
+}
+
+
+
+.instructions li{
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 40px 720px;
+    column-gap: 40px;
+
+}
+
+.instructions h3{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 40px;
+    color:darkorange;
+
+
+}
+
+.instructions p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+
+.instructions img{
+    width: 800px;
+ 
+
+   
+}
+footer{
+    background-color: darkorange;
+    color:white;
+}

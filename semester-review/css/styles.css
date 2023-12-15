@@ -1,0 +1,92 @@
+
+body {
+    font-family: 'Faith Hope', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: linear-gradient(90deg,#e52e71,#ff8a00);
+}
+
+header, footer {
+    text-align: center;
+    padding: 1.8rem;
+    background-color:black; 
+    color: rgb(249, 5, 192);
+
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3.8em;
+}
+
+header h3{
+    font-size: 2em;
+    text-align: center;
+}
+header p{
+    font-size: 1.3em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+
+.project {
+    margin: 1rem;
+    width: calc(33.333% - 2rem);
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.preview {
+    width: 100%;
+    display: block;
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.description {
+    padding: 0.5rem;
+    font-size: 0.9em;
+    color:#ff8a00;
+    text-align: center;
+    margin: 0;
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+footer {
+    color:#fff;
+    background-color:black;
+    position:fixed;
+    bottom: 0%;
+    padding: 10px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .project {
+        width: calc(50% - 2rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        width: 100%;
+    }
+}
